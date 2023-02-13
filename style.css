@@ -299,7 +299,7 @@ max-height: 762px;
 
 
 .hero__history {
-    background: url(../png/Ellips.png) no-repeat;
+    background: url(/png/Ellips.png) no-repeat;
     width: 950px;
     background-size: contain;
     display: flex;
@@ -410,7 +410,7 @@ margin: 0 auto;
     justify-content: center;
 }
 .portfolio__btn:after {
-    content: url(../png/strele.png);
+    content: url(/png/strele.png);
     width: 13px;
     height: 8px;
     margin-left: 8px;
