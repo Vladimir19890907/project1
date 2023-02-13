@@ -299,7 +299,7 @@ max-height: 762px;
 
 
 .hero__history {
-    background: url(/png/Ellips.png) no-repeat;
+    background: url(../png/Ellips.png) no-repeat;
     width: 950px;
     background-size: contain;
     display: flex;
