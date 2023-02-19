@@ -18,7 +18,7 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    display: flex;
+
 }
 
 /* Header
@@ -98,9 +98,13 @@ body {
     
 
 }
-.hero.container {
 
-max-height: 762px;
+
+.hero.container {
+    max-height: 762px;
+}
+.hero__inner {
+    display: flex;
 }
 
 .hero__left {
@@ -299,7 +303,7 @@ max-height: 762px;
 
 
 .hero__history {
-    background: url(/png/Ellips.png) no-repeat;
+    background: url(/Users/Eridas/Desktop/project1/png/Ellips.png) no-repeat;
     width: 950px;
     background-size: contain;
     display: flex;
@@ -370,6 +374,7 @@ margin: 0 auto;
 }
 
 .portfolio__work {
+    margin: 0 auto;
     max-width: 970px;
     display: flex;
     padding: 50px;
@@ -410,7 +415,7 @@ margin: 0 auto;
     justify-content: center;
 }
 .portfolio__btn:after {
-    content: url(/png/strele.png);
+    content: url(/Users/Eridas/Desktop/project1/png/strele.png);
     width: 13px;
     height: 8px;
     margin-left: 8px;
